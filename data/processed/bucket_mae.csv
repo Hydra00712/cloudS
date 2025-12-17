@@ -1,0 +1,6 @@
+bucket,count,percentage,engagement_min,engagement_max,engagement_mean,mae_baseline
+Q4_High,2401,20.0%,0.1002,0.2056,0.1407,0.0252
+Q2_Low,2399,20.0%,0.0437,0.0668,0.0552,0.0057
+Q5_Very_High,2399,20.0%,0.2056,32.2117,1.0836,1.0726
+Q3_Medium,2400,20.0%,0.0668,0.1002,0.0814,0.0081
+Q1_Very_Low,2401,20.0%,0.0019,0.0437,0.0301,0.0076

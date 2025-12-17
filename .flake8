@@ -1,0 +1,4 @@
+[flake8]
+max-line-length = 200
+ignore = E501,W293,E303,E302,E305,E402,E226,F401,F841,E722,F541,E127,E128,W291
+exclude = __pycache__,mlruns,venv

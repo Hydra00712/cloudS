@@ -1,0 +1,17 @@
+============================================================
+MODEL PERFORMANCE METRICS
+============================================================
+
+MODEL SELECTION:
+  Estimator: HistGradientBoosting
+  Best Params: {'estimator': 'HistGradientBoosting', 'min_samples_leaf': 10, 'max_leaf_nodes': 127, 'max_depth': 10, 'learning_rate': 0.02}
+
+TRAINING SET:
+  MAE:  0.2977
+  RMSE: 1.0355
+  R²:   0.2752
+
+TEST SET:
+  MAE:  0.3144
+  RMSE: 0.8447
+  R²:   -0.0421
