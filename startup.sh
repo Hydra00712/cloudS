@@ -1,21 +1,9 @@
 #!/bin/bash
-# Streamlit startup script for Azure App Service
+set -e
 
-# Install requirements
-pip install --no-cache-dir -r requirements_app.txt
+# SIMPLEST POSSIBLE STARTUP: Just serve the HTML file
+cd /home/site/wwwroot
 
-# Configure Streamlit
-mkdir -p ~/.streamlit
-cat > ~/.streamlit/config.toml << EOF
-[server]
-headless = true
-port = 8000
-runOnSave = true
-shell.showWarningOnDirectoryDelete = false
+echo "Starting HTTP server on port $PORT..."
+python3 serve.py
 
-[client]
-toolbarMode = "minimal"
-EOF
-
-# Run Streamlit
-streamlit run app_streamlit.py --server.port 8000 --server.address 0.0.0.0
